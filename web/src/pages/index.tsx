@@ -103,6 +103,7 @@ export default function Home(props: HomeProps) {
   );
 }
 
+// Try using getStaticProps (don't get from db on any F5)
 export const getServerSideProps = async () => {
   const [poolCountResponse, guessCountResponse, userCountResponse] =
     await Promise.all([
