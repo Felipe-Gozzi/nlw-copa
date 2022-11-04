@@ -15,7 +15,7 @@ export function SignIn() {
 
       <Button
         type="SECONDARY"
-        title="ENTRfdfAR COM O GOOGLE"
+        title="ENTRAR COM O GOOGLE"
         leftIcon={<Icon as={Fontisto} name="google" color="white" size="md" />}
         mt={12}
         onPress={signIn}
